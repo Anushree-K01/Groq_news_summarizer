@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(to bottom, #dceeff, #ffffff); /* Light bluish white gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif; /* Attractive modern font */
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #007BFF;
+  font-size: 28px;
+}
+
+textarea {
+  width: 80%;
+  height: 120px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  text-align: center; /* Center text inside the box */
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#summaryOutput {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  font-size: 16px;
+}
